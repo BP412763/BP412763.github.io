@@ -7,7 +7,7 @@
 - [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
-#Flutter Notes
+## Flutter Notes
 
 ### What is Flutter?
 - Definition:
