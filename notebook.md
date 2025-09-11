@@ -90,4 +90,4 @@
 
 |  Override    | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 
-|  Void    | A function that does not return a value. | `void printMessage() {}` |  |  |
+|  void    | A function that does not return a value. | `void printMessage() {}` |  |  |
