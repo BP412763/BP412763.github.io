@@ -2,10 +2,10 @@
 
 ## Table of Contents
 - [Binary Notes](#binary-notes)
- -[Binary Flippy-do](#binary-do-number-system)
- -[Practice](#practice)
--[Code Definitions](#code-definitions)
-[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+ - [Binary Flippy-do](#binary-do-number-system)
+ - [Practice](#practice)
+- [Code Definitions](#code-definitions)
+- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 ##Flutter Notes
 ### What is Flutter?
