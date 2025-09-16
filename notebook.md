@@ -1,9 +1,11 @@
 # My coding notebook
 
 ## Table of Contents
-- [Binary Notes](#binary-notes)
- - [Binary Flippy-do](#binary-do-number-system)
- - [Practice](#practice)
+[Flutter Definitions](#flutter_definitions)
+ -[what is flutter?](#what-is-flutter)
+ -[Key terms and definitions](#key-terms-and-deifinitions)
+ -[layout and design widgets](layout-and-disign-widgets)
+ -[definitions with structures](#flutter-definitions)
 - [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
