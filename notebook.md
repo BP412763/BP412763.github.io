@@ -52,11 +52,11 @@
 
 |------|------------|--------------------------|-------------------|-------------|
 
-|  Variable    | A named container used to store a value that may change. | `var x = 5;` | student age = 15 | g  |
+|  Variable    | A named container used to store a value that may change. | `var x = 5;` | student age = 15 |  | main.dart, Spring title: 'TSA Portfolio |
 
-|  Constant    | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+|  Constant    | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const, MyPortfolioApp((super.Key)); |
 
-|  Data Type    | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+|  Data Type    | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner, false |
 
 |  String    | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 
@@ -103,46 +103,49 @@
 
 |------|----------------------------|----------------|-------------------|-------------|
 
-| main()     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
+| main() | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  | in main.dart, void main() => runApp(MyPortfolioApp()); |
 
-|   MaterialApp   | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
+| materialApp | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
 
-|  scaffold    | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
+| scaffold | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  | in showcase.dart,  return Scaffold(
+      body: Column(
+ mainAxisAlignment: MainAxisAlignment.start,
+        children: [ |
 
-| column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
+| column | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 
-| row     | A widget that shows things side-by-side. | `Row(...)` |  |  |
+| row | A widget that shows things side-by-side. | `Row(...)` |  |  |
 
-| container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+| container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
 
-|  text    | A widget to display text on the screen. | `Text('Hello')` |  |  |
+| text | A widget to display text on the screen. | `Text('Hello')` |  |  |
 
-| image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
+| image.network | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
 
-|  elevatedButton    | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+| elevatedButton | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
 
-| onPressed    | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+| onPressed | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
 
-|  StatelessWidget    | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
+| StatelessWidget | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
 
-| Navigator     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+| Navigator | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
 
-|  Navigator.pushNamed   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+| Navigator.pushNamed | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
 
-|  padding    | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+| padding | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
 
-|  center    | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+| center | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 
-| wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+| wrap | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
 
-| override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+| override | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
 
-|  widgetBuild    | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+| widgetBuild | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
 
-| build     | Required in every widget class to describe what to show. | `build` |  |  |
+| build | Required in every widget class to describe what to show. | `build` |  |  |
 
-|  buildContext    | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+| buildContext | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 
-| super.key     | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+| super.key | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
 
-| const     | A keyword that means the value won't change and is set once. | `const` |  |  |
+| const | A keyword that means the value won't change and is set once. | `const` |  |  |
