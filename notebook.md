@@ -52,7 +52,7 @@
 
 |------|------------|--------------------------|-------------------|-------------|
 
-|  Variable    | A named container used to store a value that may change. | `var x = 5;` | student age = 15 |  |
+|  Variable    | A named container used to store a value that may change. | `var x = 5;` | student age = 15 | g  |
 
 |  Constant    | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
 
