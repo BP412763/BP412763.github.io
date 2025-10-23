@@ -52,49 +52,52 @@
 
 |------|------------|--------------------------|-------------------|-------------|
 
-|  Variable    | A named container used to store a value that may change. | `var x = 5;` | student age = 15 |  | main.dart, Spring title: 'TSA Portfolio |
+|      | A named container used to store a value that may change. | `var x = 5;` | student age = 15 |  | main.dart, Spring title: 'TSA Portfolio |
 
-|  Constant    | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const, MyPortfolioApp((super.Key)); |
+|      | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart, const, MyPortfolioApp((super.Key)); |
 
-|  Data Type    | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner, false |
+|      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner, false |
 
-|  String    | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+|      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 
-|  Integer    | Whole number values. | `int age = 16;` |  |  |
+|      | Whole number values. | `int age = 16;` |  |  |
 
-|  Double    | Number values with decimals. | `double age = 16.2;` |  |  |
+|     | Number values with decimals. | `double age = 16.2;` |  |  |
 
-|  boolean    | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
+|      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
 
-|  List    | A collection of values in a specific order. | `List<String> names = [];` |  |  |
+|      | A collection of values in a specific order. | `List<String> names = [];` |  |  |
 
-|  Null    | A special value that means “nothing.” | `String? name = null;` |  |  |
+|      | A special value that means “nothing.” | `String? name = null;` |  |  |
 
-|  Function    | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+|      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
 
-|  Parameter    | The information passed into a function to change how it works. | `greet(String name)` |  |  |
+|      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
 
-|  Return    | The result a function gives back. | `return total;` |  |  |
+|      | The result a function gives back. | `return total;` |  |  |
 
-|  Scope    | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+|      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
 
-|  Class    | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
 
-|  Object    | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
 
-|  Property    | A variable that belongs to a class/object. | `String name;` |  |  |
+|     | A variable that belongs to a class/object. | `String name;` |  |  |
 
-|  Method    | A function that belongs to a class. | `void bark() {}` |  |  |
+|     | A function that belongs to a class. | `void bark() {}` |  |  |
 
-|  Constructor    | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|     | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
 
-|  Abstraction    | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
 
-|  Override    | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 
-|  void    | A function that does not return a value. | `void printMessage() {}` |  |  |
-
-
+|      | A function that does not return a value. | `void printMessage() {}` |  |  |
+|             |  |  |  |  |
+|             |  |  |  |  |
+| Scanner | Creates a scanner object to take input from user | Scanner in = new Scanner (System. in); ||| 
+| import Scanner | Gives access to Scanner class, required at top | import java.util.Scanner; |||
+| print line statement | prints the content in the parenthesis, adds line after | System. out.println(" "); | print statement | prints the content in the parenthesis | System.out.print(" "); | | | I input nextLine | reads in a String from the user input.nextLine(); | input nextInt | reads in an int from the user linput.nextInt();| input nextDouble | reads in a double (decimal) from the user input.nextDouble);/ I input nextBoolean reads in a boolean (true/false) from the user | input.nextBoolean(); |
 
 
 ## Flutter Definitions with structures
