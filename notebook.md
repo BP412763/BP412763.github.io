@@ -98,7 +98,10 @@
 | Scanner | Creates a scanner object to take input from user | Scanner in = new Scanner (System. in); ||| 
 | import Scanner | Gives access to Scanner class, required at top | import java.util.Scanner; |||
 | print line statement | prints the content in the parenthesis, adds line after | System. out.println(" "); | print statement | prints the content in the parenthesis | System.out.print(" "); | | | I input nextLine | reads in a String from the user input.nextLine(); | input nextInt | reads in an int from the user linput.nextInt();| input nextDouble | reads in a double (decimal) from the user input.nextDouble);/ I input nextBoolean reads in a boolean (true/false) from the user | input.nextBoolean(); |
-
+| Maxium int | the max value an int can hold: 2147483647 | Integer. MAX_VALUE |||
+| Minimum int | the minimum value an int can hold: -2147483648 | Integer.MIN_VALUE |||
+| interger overflow | interger.MAX_VALUE + 1 ==MIN_VALUE, its wraps around ||||
+| underground underflow |
 
 ## Flutter Definitions with structures
 
