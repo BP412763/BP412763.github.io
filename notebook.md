@@ -170,3 +170,7 @@ reads in a boolean (true/false) from the user | input.nextBoolean(); |
 | super.key | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
 
 | const | A keyword that means the value won't change and is set once. | `const` |  |  |
+
+[String notes].(#String-notes).
+###String Notes
+    String have indices ( plural for index,) which start at 0. " hello" has indices 0(H), 1(e), 2(1), 3(1), 4(o). 
