@@ -178,6 +178,8 @@ reads in a boolean (true/false) from the user | input.nextBoolean(); |
 [String notes].(#String-notes).
 ###String Notes
     String have indices ( plural for index,) which start at 0. " hello" has indices 0(H), 1(e), 2(1), 3(1), 4(o). 
-    ### String Methods Table
-    <img width="1248" height="428" alt="image" src="https://github.com/user-attachments/assets/0935af73-cbf5-40cc-b6a9-bbaab019939d" />
+
+    
+### String Methods Table
+   <img width="1248" height="428" alt="image" src="https://github.com/user-attachments/assets/0935af73-cbf5-40cc-b6a9-bbaab019939d" />
 
